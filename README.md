@@ -1,2 +1,2 @@
 # atvs_POO
-Atividades de progrfamação orientada a objetos
+Atividades de programação orientada a objetos.
