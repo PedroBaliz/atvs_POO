@@ -4,7 +4,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while(true){
-            System.out.print("Insira um número: ");
+            System.out.print("Insira um número:");
             int numero = scanner.nextInt();
 
             if(numero == 0){
@@ -17,7 +17,7 @@ public class Main {
             }
 
             else{
-                for(int i = 0; i <= 10; i++){
+                for(int i = 1; i <= 10; i++){
                     int resultado = numero * i;
 
                     if(resultado % 2 == 0){
@@ -27,8 +27,8 @@ public class Main {
                         System.out.println(numero + " x " + i + " = " + resultado + " (ímpar)");
                     }
                 }
+                System.out.println("Fim");
             }
-
             
         } 
         scanner.close();  
